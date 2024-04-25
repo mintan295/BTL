@@ -1,0 +1,92 @@
+.acc,
+.login-acc {
+  float: left;
+  margin-right: 40px;
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+}
+
+.acc-btn {
+  margin-left: 10px;
+}
+
+.acc-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.acc-item {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.acc-item:hover {
+  background-color: #d5f5f5;
+  cursor: pointer;
+}
+
+.acc-item i {
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  color: black;
+}
+
+.top {
+  background-color: #d5f5f5;
+  height: 80vh;
+}
+
+.product_navbar {
+  background-color: #a6cafc;
+}
+
+.navbar-name {
+  color: #1b55d1 !important;
+  font-size: 40px;
+}
+
+.product_navbar li{
+  font-size: 17px;
+  text-decoration: none;
+  color: white !important;
+  font-weight: bold;
+}
+
+.product_navbar a {
+  font-size: 17px;
+  text-decoration: none;
+  color: white !important;
+  font-weight: bold;
+}
+
+
+/* footer */
+.footer {
+  background-color: #1b242f;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.foot_item {
+  height: 5vh;
+  background-color: #384152;
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 0;
+  color: #6a7580;
+}
+
+.foot_item svg,
+i {
+  margin-left: 8px;
+}
